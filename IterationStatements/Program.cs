@@ -42,7 +42,15 @@ namespace IterationStatements
         // Use various test cases to ensure they work as expected.        
         static void Main(string[] args)
         {
-            DisplayMultiplicationTable(4);
+            PrintRange();
+            EveryThird();
+            Console.WriteLine(TwoIntegers(a, b));
+            EvenOrOdd(number);
+            Console.WriteLine(IsPositive(number));
+            Console.WriteLine(OfVotingAge(age));
+
+            Console.WriteLine(IsInRange(number));
+            DisplayMultiplicationTable(number);
         }
 
         //1. Write a method that prints all numbers from 1000 down to -1000 to the console.
