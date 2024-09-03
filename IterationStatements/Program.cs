@@ -44,13 +44,13 @@ namespace IterationStatements
         {
             PrintRange();
             EveryThird();
-            Console.WriteLine(TwoIntegers(a, b));
-            EvenOrOdd(number);
-            Console.WriteLine(IsPositive(number));
-            Console.WriteLine(OfVotingAge(age));
+            Console.WriteLine(TwoIntegers(1, 2));
+            EvenOrOdd(12);
+            Console.WriteLine(IsPositive(7));
+            Console.WriteLine(OfVotingAge(12));
 
-            Console.WriteLine(IsInRange(number));
-            DisplayMultiplicationTable(number);
+            Console.WriteLine(IsInRange(20));
+            DisplayMultiplicationTable(3);
         }
 
         //1. Write a method that prints all numbers from 1000 down to -1000 to the console.
